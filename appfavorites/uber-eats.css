@@ -1,0 +1,102 @@
+body{
+    margin: 0;padding: 0;
+    background-image: url(image/uberfond.png); background-size:cover;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+
+}
+/* HEADER */
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100% auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.bouton{
+    margin: 25px;
+    background-color:#5FB802;
+    border-radius: 30px;
+    height:40px;
+    width: 100px;
+    font-family: 'Lato', sans-serif;
+border-style: outset;
+color: white;
+}
+.bouton:hover{
+    color: #5FB802;
+    background-color: white;
+}
+.headerlogo{
+    width: 20%; margin: 20px;
+}
+
+/* MAIN */
+main{
+    background-color: rgba(245, 245, 245, 0.904);
+    height: 1000px; 
+    margin: 50px;
+    border-radius: 3%;
+    text-align: center;
+    font-weight: bold;
+
+}
+.contencard{
+    width: 100% auto; height: 100% auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+;
+}
+
+.card{
+     background-color: #60b8029d;
+    width: 30%; border-radius: 3%;
+   height: 360px;
+   text-align: center;
+color: whitesmoke;
+
+}
+.imglogo{
+    width: 10%; margin: 15px; 
+}
+.text{
+    text-align: center;
+   
+}
+.imgcust{
+background-image: url(image/sushi.jpg); background-size: cover;
+width: 100%; height: 150px;
+}
+.imgcust2{
+    background-image: url(image/italien.jpeg); background-size: cover;
+    width: 100% auto; height: 150px;}
+    .imgcust3{
+        background-image: url(image/indien.jpg); background-size: cover;
+        width: 100% auto; height: 150px;}
+
+.card2{
+    background-color: rgb(255, 255, 255);
+   width: 30%; border-radius: 3%;
+  height: 200px;
+  text-align: center;
+  font-weight: bold;}
+
+  /* FOOTER */
+
+footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+ justify-content: space-evenly;
+    color: whitesmoke;
+   
+    
+   
+}
+.footlogo{
+    width: 40%; margin: 20px;
+}
+.sec{
+    width: 30%;
+}
